@@ -1,0 +1,1 @@
+export const honors = ["SIEMENS Competition Semifinalist", "National Merit Finalist", "National AP Scholar/AP Scholar with Distinction", "North Carolina Scholar Award"];
