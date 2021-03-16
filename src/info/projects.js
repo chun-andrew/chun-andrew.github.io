@@ -1,4 +1,4 @@
-const join = {
+const zap = {
     title: "The Zap Project",
     repo: "https://github.com/zapproject",
     tech: "Solidity, JavaScript",
@@ -6,14 +6,14 @@ const join = {
     "Contributed several PR requests working towards implementing into JavaScript and C++"]
 };
 
-const bulletin = {
+const guessify = {
     title: "Guessify",
     repo: "https://github.com/manleigh/guessify",
     tech: "JavaScript, HTML, CSS, FireBase, Spotify API",
     details: [ "Developed web game in which users guess song artists or song names in timed rounds"]
 };
 
-const ballot = {
+const handoff = {
     title: "HandOff",
     repo: "https://github.com/devincmartin/Handoff",
     tech: "JavaScript, HTML/CSS MapBox API, Python",
@@ -32,4 +32,4 @@ const web = {
 };
 
 
-export const projects = [join, ballot, bulletin, web];
+export const projects = [zap, guessify, handoff, web];
