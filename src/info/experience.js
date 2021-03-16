@@ -1,4 +1,4 @@
-const ods = {
+const bcc = {
     title: "Software Engineering Intern",
     organization: "BlockChain Center",
     web: "https://www.blockchaincenter.com/",
@@ -6,7 +6,7 @@ const ods = {
     details: ["Organization dedicated to growing the blockchain sector through open-source projects and community initiatives", "Participate in and contribute to educational initiatives", "Contribute to company-initiated open source projects"]
 };
 
-const sahead = {
+const omneky = {
     title: "Software Intern/Growth Intern",
     organization: "Omneky",
     web: "https://www.omneky.com/",
@@ -18,7 +18,7 @@ const sahead = {
 };
 
 
-const cnbc = {
+const uncch = {
     title: "Learning Assistant",
     organization: "UNC-Chapel Hill Computer Science Department",
     web: "https://cs.unc.edu/",
@@ -29,7 +29,7 @@ const cnbc = {
 };
 
 
-const sa = {
+const uf = {
     title: "Research Intern",
     organization: "University of Florida Astronomy Department",
     location: "Gainesville, Florida",
@@ -40,4 +40,4 @@ const sa = {
 };
 
 
-export const experience = [ods, sahead, cnbc, sa];
+export const experience = [bcc, omneky, uncch, uf];
