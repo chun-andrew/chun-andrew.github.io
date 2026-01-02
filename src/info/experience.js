@@ -1,7 +1,7 @@
 const capone = {
     title: "Software Engineer",
     organization: "CapitalOne",
-    web: "",
+    web: "https://www.capitalone.com/",
     date: "February 2023 - current",
     details: ["Led initiative to standardize enterprise wide contribution models, increasing platform-consumer collaborations by 40% and decreasing consumer team onboarding time by 30%",
 "Refactored and optimized case management system business logic in the case management system, eliminating a long-standing defect and reducing manual developer toil by 15% through automation and cleaner code",
@@ -24,7 +24,7 @@ const ai4govt = {
 };
 
 const omneky = {
-    title: "Software Intern/Growth Intern",
+    title: "Software Engineering Intern/Growth Intern",
     organization: "Omneky",
     web: "https://www.omneky.com/",
     date: "April 2020 - August 2020",
@@ -48,7 +48,7 @@ const uncch = {
 const cpa = {
     title: "Audio Engineer/Operator",
     organization: "Carolina Performing Arts",
-    web: "",
+    web: "https://carolinaperformingarts.org/",
     location: "Chapel Hill, NC",
     date: "January 2018 - June 2019",
     details: ["Operated console to run audio cues in real time for numerous show", 
