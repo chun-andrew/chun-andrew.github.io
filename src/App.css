@@ -1,5 +1,6 @@
 :root {
   --accent-color: #66b9f0;
+  --nav-height: 72px;
   --bg-color: #F5F7F6;
   --txt-color: #2c2d2d;
   --card-border-color: #F1EEE630;
@@ -145,4 +146,12 @@ p>a {
 
 .EducationComponent .card-header p {
   margin: 1vh 0 !important;
+}
+
+/* Ensure anchored headings are visible when scrolled to (account for fixed navbar) */
+.WholePage section,
+.WholePage h2,
+.WholePage h3,
+.WholePage .WholeModule {
+  scroll-margin-top: var(--nav-height);
 }
