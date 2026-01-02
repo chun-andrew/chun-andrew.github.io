@@ -1,10 +1,10 @@
-export const languages = ["C/C++", "HTML/CSS", "Java","JavaScript", "Python", "R", "Solidity", "MatLab", "MIPS Assembly", "SQL", "LaTeX"];
+export const fullstack = ["Java", "JavaScript", "TypeScript", "Python", "C++", "APIs", "Test-driven development"];
 
-export const technologies = ["Docker", "agile methodology", "git", "Figma", "Adobe Creative Suite", "JUnit", "Amazon Web Services", "MongoDB", "Firebase"];
+export const cloud = ["AWs (EC2, Lambda, RDS, S3, DDB, etc...", "Docker", "Jenkins"];
 
-export const frameworks_libraries = ["Angular", "jQuery", "Bootstrap", "React", "NodeJS", "Bulma", "Flask"];
+export const data = ["R", "Python", "MatLab", "Apache Spark", "SQL"];
 
-export const skills = [languages, technologies, frameworks_libraries];
+export const others = ["agile methodology", "Figma", "Bulma", "Adobe Creative Suite", "Solidity", "LaTeX"];
 
+export const skills = [fullstack, cloud, data, others];
 
-//Technologies/Others: React, NodeJS, Flask, Bootstrap, Bulma, agile methodology, Docker, git, REST, Angular, jQuery

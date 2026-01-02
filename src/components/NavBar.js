@@ -8,42 +8,46 @@ import resume from "../info/Resume.pdf"
 const NavBar = () => {
     return(
         <Navbar expand="md" bg="light" fixed="top" variant="dark">
-            <Nav.Item>
-            <Link activeClass="active"
-                  to="home"
-                  spy={true}
-                  smooth={true}
-                  duration={500}>
-                    Hello!
-            </Link>
-            </Nav.Item>
+                        <Nav.Item>
+                        <Link activeClass="active"
+                                    to="home"
+                                    spy={true}
+                                    smooth={true}
+                                    duration={500}
+                                    offset={-72}>
+                                        Hello!
+                        </Link>
+                        </Nav.Item>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Item>
-                    <Link activeClass="active"
-                          to="work"
-                          spy={true}
-                          smooth={true}
-                          duration={500}>
-                            Experience
-                    </Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                    <Link activeClass="active"
-                          to="education"
-                          spy={true}
-                          smooth={true}
-                          duration={500}>
-                            Education
-                    </Link>
-                    </Nav.Item>
+                                        <Nav.Item>
+                                        <Link activeClass="active"
+                                                    to="work"
+                                                    spy={true}
+                                                    smooth={true}
+                                                    duration={500}
+                                                    offset={-72}>
+                                                        Experience
+                                        </Link>
+                                        </Nav.Item>
+                                        <Nav.Item>
+                                        <Link activeClass="active"
+                                                    to="education"
+                                                    spy={true}
+                                                    smooth={true}
+                                                    duration={500}
+                                                    offset={-72}>
+                                                        Education
+                                        </Link>
+                                        </Nav.Item>
                     <Nav.Item>
                         <Link activeClass="active"
                               to="skills"
                               spy={true}
                               smooth={true}
-                              duration={500}>
+                              duration={500}
+                              offset={-72}>
                             Skills
                         </Link>
                     </Nav.Item>
@@ -52,7 +56,8 @@ const NavBar = () => {
                               to="projects"
                               spy={true}
                               smooth={true}
-                              duration={500}>
+                              duration={500}
+                              offset={-72}>
                             Projects
                         </Link>
                     </Nav.Item>

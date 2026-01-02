@@ -17,7 +17,7 @@ const IntroComponent = ({
                 <Col xs={{span: 12, order: 12}} md={{span: 6, order: 1}}>
                     <p> Hello!  </p>
                     <h1> My name is Andrew Chun. </h1>
-                    <h2> I'm a computer science major looking to become a software engineer. </h2>
+                    <h2> I'm a full-stack SWE always on the hunt for a new challenge. </h2>
                     
                 </Col>
                 <Col xs={{span: 12, order: 5}} md={{span: 4, order: 8}}>
@@ -29,13 +29,14 @@ const IntroComponent = ({
             <p> Some interests/skills I have include (but are not limited to!):
                 <ul>
                     <li> Full-stack development </li>
-                    <li> Blockchain </li>
-                    <li> Data Science/Database Management </li>
                     <li> Scientific Research </li>
+                    <li> Ceramics </li>
+                    <li> Movies/Filmmaking </li>
+                    <li> Astronomy </li>
                 </ul>
             </p>
             <Button className={"ContactButton"}
-                    href={"mailto:achun@live.unc.edu"}>
+                    href={"mailto:chun42.81@gmail.com"}>
                 <AiOutlineMail/> Get in Touch
             </Button>
         </div>
@@ -43,5 +44,3 @@ const IntroComponent = ({
 };
 
 export default IntroComponent;
-
-//<Image src="../info/guessifylogo.png" roundedCircle fluid/>
