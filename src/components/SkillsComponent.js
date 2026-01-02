@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import CardDeck from "react-bootstrap/CardDeck";
-import {cloud, frameworks_libraries, fullstack, languages, technologies} from "../info/skills";
+import {fullstack, cloud, data, others} from "../info/skills";
 import Card from "react-bootstrap/Card";
 import Fade from "react-reveal/Fade";
 
@@ -28,19 +28,19 @@ export default class SkillsComponent extends Component {
     }
 
     render() {
-        let langs = this.makeCards(fullstack, "Full-Stack Development");
-        let cloud = this.makeCards(cloud, "Cloud Services");
-        let data = this.makeCards(data, "Data Science");
-        let others = this.makeCards(others, "Others");
+        let fullstackCards = this.makeCards(fullstack, "Full-Stack Development");
+        let cloudCards = this.makeCards(cloud, "Cloud Services");
+        let dataCards = this.makeCards(data, "Data Science");
+        let othersCards = this.makeCards(others, "Others");
         return(
             <div id={this.props.id} className={"WholeModule SkillsComponent"}>
                 <h2> Skills </h2>
                 <Fade left cascade>
                 <CardDeck>
-                    {langs}
-                    {cloud}
-                    {data}
-                    {others}
+                    {fullstackCards}
+                    {cloudCards}
+                    {dataCards}
+                    {othersCards}
                 </CardDeck>
                 </Fade>
             </div>
