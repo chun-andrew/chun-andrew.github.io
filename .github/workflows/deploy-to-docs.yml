@@ -1,5 +1,8 @@
 name: Build and deploy to docs
 
+permissions:
+  contents: write
+
 on:
   push:
     branches: [ main, deploy_branch ]
@@ -31,6 +34,10 @@ jobs:
           rm -rf docs
           mkdir -p docs
           cp -a build/. docs/
+
+      - name: Add .nojekyll to docs
+        run: |
+          touch docs/.nojekyll
 
       - name: Commit and push docs/
         env:
