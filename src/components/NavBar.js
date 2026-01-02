@@ -68,7 +68,7 @@ const NavBar = () => {
                     </a>
                 </Navbar.Text>
                 <Navbar.Text>
-                    <a rel="noopener noreferrer" href="https://github.com/BlueHeron42" target="_blank">
+                    <a rel="noopener noreferrer" href="https://github.com/chun-andrew" target="_blank">
                     GitHub <AiOutlineGithub/>
                     </a>
                 </Navbar.Text>
