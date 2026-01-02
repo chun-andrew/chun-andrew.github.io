@@ -22,7 +22,7 @@ const IntroComponent = ({
                 </Col>
                 <Col xs={{span: 12, order: 5}} md={{span: 4, order: 8}}>
                     <Fade right>
-                        <Image src={pfp} roundedCircle fluid/>
+                        <Image src={pfp} roundedCircle fluid className="intro-pfp" />
                     </Fade>
                 </Col>
             </Row>

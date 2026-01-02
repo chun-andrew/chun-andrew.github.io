@@ -135,6 +135,11 @@ p>a {
   margin: auto 0;
 }
 
+/* Slightly shift profile image right to avoid touching text */
+.IntroComponent .intro-pfp {
+  margin-left: 2rem;
+}
+
 .filler {
   height: 15vh;
 }
