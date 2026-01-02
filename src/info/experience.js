@@ -40,7 +40,7 @@ const uncch = {
     organization: "UNC-Chapel Hill Computer Science Department",
     web: "https://cs.unc.edu/",
     location: "Chapel Hill, NC",
-    date: "January 2020 - May 2020",
+    date: "January 2020 - May 2022",
     details: ["Utilize MatLab to create assignments based around image processing and analysis using real image computing objectives", 
     "Host weekly office hours and teach students on a one-on-few basis"]
 };
@@ -51,10 +51,9 @@ const cpa = {
     web: "",
     location: "Chapel Hill, NC",
     date: "January 2018 - June 2019",
-    details: ["Utilize MatLab to create assignments based around image processing and analysis using real image computing objectives", 
-    "Host weekly office hours and teach students on a one-on-few basis"]
+    details: ["Operated console to run audio cues in real time for numerous show", 
+    "Mentored others to operate sound console"]
 };
-
 
 const uf = {
     title: "Research Intern",
@@ -67,4 +66,4 @@ const uf = {
 };
 
 
-export const experience = [capone, ai4govt, omneky, uncch, uf];
+export const experience = [capone, ai4govt, omneky, uncch, cpa, uf];

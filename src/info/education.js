@@ -3,10 +3,10 @@ const undergrad = {
     organization: "University of North Carolina, Chapel Hill",
     location: "Chapel Hill, NC",
     date: "August 2018 - May 2022",
-    details: ["Pursuing a double major in Computer Science and Statistics, minoring in Astronomy",
+    details: ["Graduated with a BS in Computer Science with minors in Data Science and Astronomy",
         "Sponsorship Committee Lead for HackReality, first XR-focused hackathon in Southeast region.",
-        "ospitality Chair for Triangle Asian-American Student Conference.", 
-        "Events Chair for UNC-Chapel Hill branch of SolidariTee"]
+        "Hospitality Chair for Triangle Asian-American Student Conference.", 
+        "Events Chair for UNC-Chapel Hill branch of international NPO SolidariTee"]
 };
 
 const hs = {
