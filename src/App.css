@@ -137,7 +137,7 @@ p>a {
 
 /* Slightly shift profile image right to avoid touching text */
 .IntroComponent .intro-pfp {
-  margin-left: 2rem;
+  margin-left: 4rem;
 }
 
 .filler {
