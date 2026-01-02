@@ -19,9 +19,6 @@ export default class WholePageView extends Component {
                             <SkillsComponent id={"skills"}/>
                             <ProjectComponent id={"projects"} />
                     </div>
-                    <footer>
-                        Design inspired by <a href="https://brianbalayon.github.io/" style= {{color: "black"}} >brianbalayon.github.io</a>
-                    </footer> 
             </React.Fragment>
     );
     }

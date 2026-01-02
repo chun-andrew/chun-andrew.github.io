@@ -1,0 +1,44 @@
+name: Build and deploy to docs
+
+on:
+  push:
+    branches: [ main, master, deploy_branch ]
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Copy build to docs/
+        run: |
+          rm -rf docs
+          mkdir -p docs
+          cp -a build/. docs/
+
+      - name: Commit and push docs/
+        env:
+          GIT_AUTHOR_NAME: github-actions[bot]
+          GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+        run: |
+          git config user.name "$GIT_AUTHOR_NAME"
+          git config user.email "$GIT_AUTHOR_EMAIL"
+          git add -A docs
+          git commit -m "chore: update docs (built site) from $GITHUB_SHA" || echo "No changes to commit"
+          git push
