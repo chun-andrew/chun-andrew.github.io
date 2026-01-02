@@ -2,7 +2,7 @@ name: Build and deploy to docs
 
 on:
   push:
-    branches: [ main, master, deploy_branch ]
+    branches: [ main, deploy_branch ]
   workflow_dispatch:
 
 jobs:
